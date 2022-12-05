@@ -51,8 +51,8 @@
             name: php-app
   
         - name: 'Deploy to Azure Web App'
-          uses: azure/webapps-deploy@v2
           id: deploy-to-webapp
+          uses: azure/webapps-deploy@v2
           with:
             app-name: 'final-test2'
             slot-name: 'production'
